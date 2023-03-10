@@ -1,0 +1,87 @@
+@font-face {
+    font-family: badadoom;
+    src: url(../others/font/BADABB__.TTF);
+}
+*{
+    font-family: badadoom, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg-2{
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+.bg{
+    background-image: url(../others/images/AdobeStock_265134814_Preview.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
+}
+.transi{
+    transform: skew(20deg);
+}
+.last{
+    text-align-last: center;
+}
+.h{
+    min-height: 100vh;
+}
+.h-2{
+    height: 28vh;
+}
+.h-80{
+    height: 80%;
+}
+.h-3{
+    height: 15vh;
+}
+/* .h-4{
+    min-height: 40vh;
+} */
+.h-5{
+    min-height: 70vh;
+    min-width: 40%
+}
+.font{
+    font-size: 5vw;
+    font-weight: 900;
+}
+.font-2{
+    font-size: 7vw;
+    font-weight: 300;
+}
+.font-3{
+    font-size: 1.5em;
+}
+.trans{
+    -ms-transform: rotate(-10deg); 
+    -webkit-transform: rotate(-10deg); 
+    -moz-transform: rotate(-10deg); 
+     transform : rotate(-10deg); 
+}
+.bg-hulk{
+    background-image: url("https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/332-hulk.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 30%;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+@media (max-width : 460px) {
+    .font {
+        font-size: 8vw;
+        font-weight: 900; 
+    }
+    .font-2 {
+        font-size: 12vw;
+        font-weight: 900; 
+    }
+
+}
